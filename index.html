@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio | Deepika</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">D</span> Deepika</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contact</a>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="Images/hero-image-removebg-preview.png" alt="header" />
+      </div>
+      <div class="header__content">
+      
+        <div>
+          <h1>Deepika<br />Developer</h1>
+        </div>
+        <p class="section__description">
+          Welcome to my digital playground, where pixels come to life and code weaves magic. As a fresh-faced web developer, I'm on a mission to craft captivating online experiences that leave a lasting impression.Whether you're a fellow dreamer with a vision to share or a business looking to make waves online, I'm here to collaborate and bring your ideas to life. Let's embark on this journey together and build something extraordinary.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Download Resume</button>
+        </div>
+       
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        
+        <img src="Images/8592634-removebg-preview.png" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">About Me</h2>
+        <p class="section__description">
+            Hey there, I'm Deepika, a code enthusiast navigating the wild world of Computer Science. Currently rocking the Bachelor's in CSE, I'm the resident web wizard conjuring digital magic. From unraveling code mysteries to crafting sleek web spaces, I find joy in pixels and passion in functions.
+
+            Future? Oh, I'm on a quest to be the coding maestro, shaping the virtual realms with lines of logic. When not juggling algorithms, catch me exploring tech trends, hacking away at challenges, and sprinkling some innovation in the code cocktail.
+            
+            Here's to errors that teach and syntax that sings.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Download Resume</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <h2 class="section__header">Services</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Website Design</h4>
+          <p>
+            Transforming your ideas into visually stunning and user-friendly websites that leave a lasting impression. Our designs are not just aesthetically pleasing but also optimized for seamless navigation and maximum engagement.
+          </p>
+        </div><div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Web development</h4>
+          <p>
+            Bringing your digital vision to life with custom web development solutions. 
+            Where each website is built with precision, scalability, and functionality in mind.
+          </p>
+        </div><div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Replo builder</h4>
+          <p>
+            As a skilled developer, I specialize in crafting exceptional websites using Replo's intuitive platform. With its drag-and-drop interface and extensive customization options, I can bring your vision to life efficiently and effectively.
+          </p>
+        </div>
+        
+      </div>
+    </section>
+
+
+
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">D</div>
+      <h2 class="section__header">Let's Talk!</h2>
+      
+      <div class="contact-form">
+        <form action="submit.php" method="post">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="contact__socials">
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+             </div>
+    </section>
+    <footer class="footer">
+      Copyright © 2024 Deepika. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
