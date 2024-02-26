@@ -382,7 +382,7 @@ nav {
   cursor: pointer;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
-}
+
 
 
 .contact__socials a:hover {
@@ -397,7 +397,7 @@ nav {
   text-align: center;
 }
 
-@media (width > 300px) {
+@media (width < 800px) {
   .service__grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -440,9 +440,10 @@ nav {
     background-image: none;
   }
   .nav__links a {
-    color: var(--text);
+    color: var(--white);
     transition: 0.3s;
   }
+  
   
   .nav__links a:hover {
     color: var(--text);
